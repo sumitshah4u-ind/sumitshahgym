@@ -5,13 +5,13 @@
 @section('content')
 
 
-<p>First Name: {{ $member->firstName }}</p>
-<p>Last Name: {{ $member->lastName }}</p>
-<p>Email: {{ $member->email }}</p>
-<p>Address: {{ $member->address1 }}, {{ $member->address2 }}, {{ $member->postcode }}</p>
-<p>DOB: {{ $member->DOB }}</p>
-<p>Phone: {{ $member->phone }}</p>
-<p>Subscription: @if($member->subscription == 'M') Monthly @else Yearly @endif</p>
+<p><b>First Name:</b> {{ $member->firstName }}</p>
+<p><b>Last Name:</b> {{ $member->lastName }}</p>
+<p><b>Email:</b> {{ $member->email }}</p>
+<p><b>Address:</b> {{ $member->address1 }}, {{ $member->address2 }}, {{ $member->postcode }}</p>
+<p><b>DOB:</b> {{ $member->DOB }}</p>
+<p><b>Phone:</b> {{ $member->phone }}</p>
+<p><b>Subscription:</b> @if($member->subscription == 'M') Monthly @else Yearly @endif</p>
 
 <a href="{{ url('/members\/').$member->id }}/edit" class="btn btn-link" role="button">Edit {{$member->firstName.' '.$member->lastName}}</a>
 
