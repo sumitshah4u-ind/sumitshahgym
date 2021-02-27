@@ -20,7 +20,6 @@ Route::resource('members', 'MembersController');
 
 Route::resource('register', 'RegisterController');
 Route::resource('home', 'HomeController');
-Route::resource('login', 'LoginController');
 
 Route::get('/reports', 'MembersController@reportsIndex')->name('reports');
 Route::post('/reports', 'MembersController@viewReport')->name('view reports');
