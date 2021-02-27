@@ -22,7 +22,7 @@
 <div class="form-group">
   <label for="sel1">Year:</label>
   <select class="form-control" id="year" name="year">
-    @for ($i = 2018; $i <= 2020; $i++)
+    @for ($i = 2018; $i <= 2022; $i++)
       <option>{{$i}}</option>
     @endfor
   </select>
