@@ -20,7 +20,7 @@
     <input type="text" name="firstName" class="form-control"
       placeholder="Enter your first name..."
       @if(isset($isEditPage)) value="{{ $members->firstName }}" @endif
-      id="fname" required>
+      id="fname" required width="50%">
   </div>
 
   <div class="form-group">
@@ -28,7 +28,7 @@
     <input type="text" name="lastName" class="form-control"
       placeholder="Enter your last name..."
       @if(isset($isEditPage)) value="{{ $members->lastName }}" @endif
-      id="lname" required>
+      id="lname" required width="50%">
   </div>
 
   <div class="form-group">
@@ -36,7 +36,7 @@
     <input type="email" name="email" class="form-control"
       placeholder="Enter your email..."
       @if(isset($isEditPage)) value="{{ $members->email }}" @endif
-      id="email" required>
+      id="email" required width="50%">
   </div>
 
   <div class="form-group">
@@ -44,7 +44,7 @@
     <input type="text" name="address1" class="form-control"
     placeholder="Enter your address line 1..."
     @if(isset($isEditPage)) value="{{ $members->address1 }}" @endif
-    id="add1" required>
+    id="add1" required width="50%">
   </div>
 
   <div class="form-group">
@@ -52,7 +52,7 @@
     <input type="text" name="address2" class="form-control"
     placeholder="Enter your address line 2..."
     @if(isset($isEditPage)) value="{{ $members->address2 }}" @endif
-    id="add2">
+    id="add2"  width="50%">
   </div>
 
   <div class="form-group">
@@ -60,7 +60,7 @@
     <input type="text" name="postcode" class="form-control"
       placeholder="Enter your postcode..."
       @if(isset($isEditPage)) value="{{ $members->postcode }}" @endif
-      id="postcode" required>
+      id="postcode" required width="50%">
   </div>
 
   <label class="control-label"> Subscription </label>
@@ -98,7 +98,7 @@
     <input type="date" name="DOB" class="form-control"
       placeholder="Enter your date of birth..."
       @if(isset($isEditPage)) value="{{ $members->DOB }}" @endif
-      id="DOB">
+      id="DOB"  width="50%">
   </div>
 
   <div class="form-group">
@@ -106,11 +106,11 @@
     <input type="phone" name="phone" class="form-control"
       placeholder="Enter your phone number..."
       @if(isset($isEditPage)) value="{{ $members->phone }}" @endif
-      id="phone">
+      id="phone" width="50%">
   </div>
 
   <div class="form-group">
-    <button type="submit" class="btn btn-info form-control">Submit</button>
+    <button type="submit" class="btn btn-info form-control"  width="50%">Submit</button>
   </div>
 
 </form>
