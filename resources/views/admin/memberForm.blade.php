@@ -32,7 +32,7 @@
   </div>
 
   <div class="form-group">
-    <label class="control-label" for="email"> Email </label>
+    <label class="control-label" for="email"> Email       </label>
     <input type="email" name="email"
       placeholder="Enter your email..."
       @if(isset($isEditPage)) value="{{ $members->email }}" @endif
@@ -67,7 +67,7 @@
   <div class="radio">
     <label class="control-label" for="monthly">
       <input type="radio" name="subscription"
-      value="M" class="form-control"
+      value="M"
       @if(isset($isEditPage))
         @if($members->subscription == 'M')
           checked="checked"
@@ -80,7 +80,7 @@
   <div class="radio">
     <label class="control-label" for="yearly">
       <input type="radio" name="subscription"
-        value="Y" class="form-control"
+        value="Y"
         @if(isset($isEditPage))
           @if($members->subscription == 'Y')
             checked="checked"
@@ -94,7 +94,7 @@
   </div>
 
   <div class="form-group">
-    <label class="control-label" for="DOB"> D.O.B </label>
+    <label class="control-label" for="DOB"> D.O.B        </label>
     <input type="date" name="DOB"
       placeholder="Enter your date of birth..."
       @if(isset($isEditPage)) value="{{ $members->DOB }}" @endif
@@ -102,7 +102,7 @@
   </div>
 
   <div class="form-group">
-    <label class="control-label" for="phone"> Phone </label>
+    <label class="control-label" for="phone"> Phone        </label>
     <input type="phone" name="phone"
       placeholder="Enter your phone number..."
       @if(isset($isEditPage)) value="{{ $members->phone }}" @endif
