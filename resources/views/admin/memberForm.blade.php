@@ -32,7 +32,7 @@
   </div>
 
   <div class="form-group">
-    <label class="control-label" for="email"> Email       </label>
+    <label class="control-label" for="email"> Email &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
     <input type="email" name="email"
       placeholder="Enter your email..."
       @if(isset($isEditPage)) value="{{ $members->email }}" @endif
