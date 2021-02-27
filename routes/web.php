@@ -18,7 +18,7 @@ Auth::routes();
 
 Route::resource('members', 'MembersController');
 
-Route::resource('register', 'Auth\RegisterController');
+Route::resource('register', 'Auth\RegisterController::create');
 Route::resource('home', 'Auth\HomeController');
 
 Route::get('/reports', 'MembersController@reportsIndex')->name('reports');
