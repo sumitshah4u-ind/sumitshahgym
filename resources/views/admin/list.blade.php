@@ -7,12 +7,12 @@
   <table class="table table-hover">
       <thead>
         <tr>
-          <th>First Name</th>
-          <th>Last Name</th>
-          <th>Email</th>
-          <th>Subscription</th>
-          <th>View Member?</th>
-          <th>Edit Member?</th>
+          <th><b>First Name</b></th>
+          <th><b>Last Name</b></th>
+          <th><b>Email</b></th>
+          <th><b>Subscription</b></th>
+          <th><b>View Member?</b></th>
+          <th><b>Edit Member?</b></th>
         </tr>
       </thead>
       <tbody>
