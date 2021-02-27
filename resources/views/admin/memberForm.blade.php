@@ -94,7 +94,7 @@
   </div>
 
   <div class="form-group">
-    <label class="control-label" for="DOB"> D.O.B        </label>
+    <label class="control-label" for="DOB"> D.O.B &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
     <input type="date" name="DOB"
       placeholder="Enter your date of birth..."
       @if(isset($isEditPage)) value="{{ $members->DOB }}" @endif
@@ -102,7 +102,7 @@
   </div>
 
   <div class="form-group">
-    <label class="control-label" for="phone"> Phone        </label>
+    <label class="control-label" for="phone"> Phone &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
     <input type="phone" name="phone"
       placeholder="Enter your phone number..."
       @if(isset($isEditPage)) value="{{ $members->phone }}" @endif
